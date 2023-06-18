@@ -46,14 +46,12 @@ export default function Home() {
                   Currently strengthening skills related to HTML/CSS/JS and C++.
                 </div>
               </motion.div>
-              <div className="text-xl">
-                It's a pleasure to meet you. Let's get to know each other.
-              </div>
+              <div className="text-xl">It iss a pleasure to meet you.</div>
               <div>
                 <Menu as="div" className="relative inline-block">
                   <div>
                     <Menu.Button className="inline-flex w-full justify-center rounded-md bg-white bg-opacity-20 px-4 py-2 text-lg font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-                      Let's get to know each other.
+                      Let me introduce myself.
                       <ChevronDownIcon
                         className="ml-2 -mr-1 h-7 w-87 text-white align-center"
                         aria-hidden="true"
