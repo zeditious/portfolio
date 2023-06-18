@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import NavBar from "@/components/NavBar";
+import Home from "@/components/Home";
 
 export default function Index() {
   return (
@@ -10,7 +11,8 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar></NavBar>
+      <NavBar />
+      <Home />
     </div>
   );
 }
