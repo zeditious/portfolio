@@ -34,7 +34,7 @@ export default function NavBar() {
     <>
       {/* Desktop */}
       <div className="p-8 hidden md:block">
-        <div className="flex flex-row text-white justify-between font-light">
+        <div className="flex flex-row text-white justify-between font-light pb-4">
           <div className="md:text-4xl text-3xl font-medium px-2 tracking-wider">
             IA
           </div>
@@ -44,8 +44,8 @@ export default function NavBar() {
             ))}
           </div>
         </div>
+        <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
       </div>
-      <hr class="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
 
       {/* Mobile */}
       <div className="p-2 block md:hidden flex flex-row justify-between items-center">
