@@ -44,7 +44,7 @@ export default function NavBar() {
             ))}
           </div>
         </div>
-        <hr className="h-px bg-neutral-700 border-0"></hr>
+        <hr className="hidden md:block h-px bg-neutral-700 border-0"></hr>
       </div>
 
       {/* Mobile */}
@@ -73,8 +73,8 @@ export default function NavBar() {
           aria-label={label}
           color="white"
         />
+        <hr className="h-px bg-neutral-700 border-0"></hr>
       </div>
-      <hr className="h-px bg-neutral-700 border-0"></hr>
     </>
   );
 }
