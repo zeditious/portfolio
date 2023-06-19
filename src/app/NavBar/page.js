@@ -44,7 +44,7 @@ export default function NavBar() {
             ))}
           </div>
         </div>
-        <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <hr className="h-px bg-neutral-700 border-0"></hr>
       </div>
 
       {/* Mobile */}
@@ -74,6 +74,7 @@ export default function NavBar() {
           color="white"
         />
       </div>
+      <hr className="h-px bg-neutral-700 border-0"></hr>
     </>
   );
 }
