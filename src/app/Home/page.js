@@ -88,41 +88,47 @@ export default function Home() {
                       <Menu.Items className="absolute right-0 mt-2 w-full origin-top-right divide-y divide-neutral-700 rounded-md bg-neutral-700 ring-1 ring-neutral-700 ring-opacity-2 focus:outline-none">
                         <Menu.Item>
                           {({ active }) => (
-                            <button
-                              className={`${
-                                active
-                                  ? "bg-neutral-600 text-white"
-                                  : "text-white bg-neutral-700"
-                              } group flex w-full items-center rounded-md px-2 py-2 text-md`}
-                            >
-                              <Link href="/inspiration">Inspiration</Link>
-                            </button>
+                            <Link href="/inspiration">
+                              <button
+                                className={`${
+                                  active
+                                    ? "bg-neutral-600 text-white"
+                                    : "text-white bg-neutral-700"
+                                } group flex w-full items-center rounded-md px-2 py-2 text-md`}
+                              >
+                                Inspiration
+                              </button>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <button
-                              className={`${
-                                active
-                                  ? "bg-neutral-600 text-white"
-                                  : "text-white bg-neutral-700"
-                              } group flex w-full items-center rounded-md px-2 py-2 text-md`}
-                            >
-                              Projects
-                            </button>
+                            <Link href="/projects">
+                              <button
+                                className={`${
+                                  active
+                                    ? "bg-neutral-600 text-white"
+                                    : "text-white bg-neutral-700"
+                                } group flex w-full items-center rounded-md px-2 py-2 text-md`}
+                              >
+                                Projects
+                              </button>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <button
-                              className={`${
-                                active
-                                  ? "bg-neutral-600 text-white"
-                                  : "text-white bg-neutral-700"
-                              } group flex w-full items-center rounded-md px-2 py-2 text-md`}
-                            >
-                              Resume
-                            </button>
+                            <Link href="/resume">
+                              <button
+                                className={`${
+                                  active
+                                    ? "bg-neutral-600 text-white"
+                                    : "text-white bg-neutral-700"
+                                } group flex w-full items-center rounded-md px-2 py-2 text-md`}
+                              >
+                                Resume
+                              </button>
+                            </Link>
                           )}
                         </Menu.Item>
                       </Menu.Items>

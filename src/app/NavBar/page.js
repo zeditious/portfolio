@@ -86,12 +86,7 @@ export default function NavBar() {
 
 const NavLink = ({ link, setOpened }) => {
   return (
-    <Link
-      href={link.value}
-      scroll={false}
-      className="mb-2"
-      onClick={() => setOpened(false)}
-    >
+    <Link href={link.value} scroll={false} className="mb-2">
       <span className="text-md lg:text-lg underline-offset-4 hover:underline p-4">
         {link.label}
       </span>
