@@ -5,6 +5,7 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
               transition={{ delay: 0.5, duration: 0.75 }}
             >
               <img
-                src="/home/portfolio.jpg"
+                src="/Home/portfolio.jpg"
                 className="flex min-h-48 px-8 md:px-16 md:max-h-[60vh] rounded-md"
               />
             </motion.div>
