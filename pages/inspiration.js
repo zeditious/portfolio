@@ -1,12 +1,11 @@
 "use client";
-
+import "../src/app/globals.css";
 import { motion } from "framer-motion";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import Link from "next/link";
 
-export default function Home() {
+export default function inspiration() {
   return (
     // <motion.div
     //   initial={{ y: 25, opacity: 0 }}
@@ -15,7 +14,7 @@ export default function Home() {
     // >
     // </motion.div>
     <>
-      {/* Desktop */}
+      {/* Desktop Icon */}
       <div className="block">
         <div className="flex flex-col text-center items-center">
           <div className="flex flex-col md:flex-row py-8">
@@ -94,7 +93,7 @@ export default function Home() {
                                   : "text-white bg-neutral-700"
                               } group flex w-full items-center rounded-md px-2 py-2 text-md`}
                             >
-                              <Link href="/inspiration">Inspiration</Link>
+                              Inspiration
                             </button>
                           )}
                         </Menu.Item>
