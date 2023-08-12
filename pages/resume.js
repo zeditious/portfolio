@@ -26,7 +26,6 @@ export default function inspiration() {
             src="https://onedrive.live.com/embed?resid=9DAD113EA6F3E1F8%2112589&authkey=!ANV9t3ONA97Z6WU&em=2"
             width="476"
             height="575"
-            frameborder="0"
             scrolling="no"
           ></iframe>
         </div>
