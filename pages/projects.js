@@ -2,11 +2,9 @@
 
 import "../src/app/globals.css";
 import NavBar from "@/app/NavBar/page";
+import Link from "next/link";
 
 import { motion } from "framer-motion";
-import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 export default function projects() {
   return (
@@ -20,9 +18,26 @@ export default function projects() {
       <NavBar />
       {/* Desktop */}
       <div className="px-8">
-        <div className="text-3xl text-semibold">Projects:</div>
-        <div className="bg-gray-700 hover:bg-stone-900 font-bold py-2 px-4 rounded-full">
-          Test
+        <div className="text-3xl pb-4 text-semibold">Deployed Projects:</div>
+        <div className="flex justify-center">
+          <div className="flex flex-col max-w-[60vw]">
+            <Link href="https://trevanseay.com" target="_blank">
+              <div className="bg-stone-800 hover:scale-105 rounded-lg w-auto overflow-hidden">
+                <img
+                  src="/projects/trevanseay.png"
+                  className="object-cover overflow-hidden"
+                />
+                <div className="p-2">
+                  <div className="text-2xl font-semibold">Trevan Seay</div>
+                  <div className="pt-2 text-lg">
+                    A portfolio website created for a University of Tennessee
+                    student majoring in architecture. Features a showcase of
+                    their work and photography. Built using NextJS.
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </>
