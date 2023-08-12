@@ -88,7 +88,7 @@ export default function Home() {
                       <Menu.Items className="absolute right-0 mt-2 w-full origin-top-right divide-y divide-neutral-700 rounded-md bg-neutral-700 ring-1 ring-neutral-700 ring-opacity-2 focus:outline-none">
                         <Menu.Item>
                           {({ active }) => (
-                            <Link href="/inspiration">
+                            <Link href="/about">
                               <button
                                 className={`${
                                   active
@@ -96,7 +96,7 @@ export default function Home() {
                                     : "text-white bg-neutral-700"
                                 } group flex w-full items-center rounded-md px-2 py-2 text-md`}
                               >
-                                Inspiration
+                                About Me
                               </button>
                             </Link>
                           )}
