@@ -7,7 +7,7 @@ import { useDisclosure } from "@mantine/hooks";
 const Links = [
   {
     value: "/",
-    label: "About",
+    label: "Home",
   },
   {
     value: "mailto:ian@ianallish.com",

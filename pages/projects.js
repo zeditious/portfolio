@@ -32,7 +32,7 @@ export default function projects() {
                   <div className="pt-2 text-lg">
                     A portfolio website created for a University of Tennessee
                     student majoring in architecture. Features a showcase of
-                    their work and photography. Built using NextJS.
+                    their work and photography. Built using Next.js.
                   </div>
                 </div>
               </div>
