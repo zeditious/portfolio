@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Drawer, Burger } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 
 const Links = [
@@ -45,34 +46,35 @@ export default function NavBar() {
         </div>
         <hr className="hidden md:block h-px bg-neutral-700 border-0"></hr>
       </div>
-
       {/* Mobile */}
       <div className="block md:hidden">
         <div className="p-2 flex flex-row justify-between items-center">
           <div className="md:text-4xl text-3xl font-medium px-2 tracking-wider">
             IA
           </div>
+          <MantineProvider theme={{ colorScheme: "dark" }}>
+            <Drawer
+              opened={opened}
+              onClose={close}
+              position="top"
+              size="30%"
+              background="black"
+              overlayProps={{ color: "black", blur: 4 }}
+            >
+              <div className="flex flex-col items-center justify-between">
+                {Links.map((link, i) => (
+                  <NavLink link={link} key={i} />
+                ))}
+              </div>
+            </Drawer>
 
-          <Drawer
-            opened={opened}
-            onClose={close}
-            position="top"
-            size="40%"
-            overlayProps={{ color: "black", blur: 4 }}
-          >
-            <div className="flex flex-col items-center justify-between">
-              {Links.map((link, i) => (
-                <NavLink link={link} key={i} />
-              ))}
-            </div>
-          </Drawer>
-
-          <Burger
-            opened={opened}
-            onClick={open}
-            aria-label={label}
-            color="white"
-          />
+            <Burger
+              opened={opened}
+              onClick={open}
+              aria-label={label}
+              color="white"
+            />
+          </MantineProvider>
         </div>
         <hr className="h-px bg-neutral-700 border-0"></hr>
       </div>
