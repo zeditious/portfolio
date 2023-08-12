@@ -21,10 +21,6 @@ const Links = [
     value: "https://github.com/zeditious",
     label: "GitHub",
   },
-  {
-    value: "/",
-    label: "Socials",
-  },
 ];
 
 export default function NavBar() {
