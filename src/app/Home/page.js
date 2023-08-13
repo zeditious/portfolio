@@ -96,7 +96,7 @@ export default function Home() {
                                     : "text-white bg-neutral-700"
                                 } group flex w-full items-center rounded-md px-2 py-2 text-md`}
                               >
-                                About Me
+                                About Me (Work in Progress)
                               </button>
                             </Link>
                           )}
