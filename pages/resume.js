@@ -11,7 +11,7 @@ export default function inspiration() {
         <div className="text-3xl pb-4 text-semibold">Resume:</div>
         <div className="flex justify-center max-w-5/6">
           <iframe
-            src="https://onedrive.live.com/embed?resid=9DAD113EA6F3E1F8%2112589&authkey=!ANV9t3ONA97Z6WU&em=2"
+            src="https://onedrive.live.com/embed?resid=9DAD113EA6F3E1F8%2112600&authkey=!APxTuA_296MhxNk&em=2"
             width="1536"
             height="864"
             scrolling="no"
@@ -22,7 +22,7 @@ export default function inspiration() {
         <div className="text-xl pb-4 text-semibold">Resume:</div>
         <div className="flex justify-center">
           <iframe
-            src="https://onedrive.live.com/embed?resid=9DAD113EA6F3E1F8%2112589&authkey=!ANV9t3ONA97Z6WU&em=2"
+            src="https://onedrive.live.com/embed?resid=9DAD113EA6F3E1F8%2112600&authkey=!APxTuA_296MhxNk&em=2"
             width="476"
             height="575"
             scrolling="no"
