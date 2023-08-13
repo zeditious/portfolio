@@ -9,12 +9,11 @@ export default function inspiration() {
       <NavBar />
       <div className="hidden md:block px-8">
         <div className="text-3xl pb-4 text-semibold">Resume:</div>
-        <div className="flex justify-center">
+        <div className="flex justify-center max-w-5/6">
           <iframe
             src="https://onedrive.live.com/embed?resid=9DAD113EA6F3E1F8%2112589&authkey=!ANV9t3ONA97Z6WU&em=2"
             width="1536"
             height="864"
-            frameborder="0"
             scrolling="no"
           ></iframe>
         </div>
